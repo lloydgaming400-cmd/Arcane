@@ -1,0 +1,56 @@
+[
+  {
+    "id": "warrior",
+    "name": "⚔️ Warrior",
+    "description": "A battle-hardened fighter who excels in melee combat and can absorb massive damage.",
+    "baseStats": { "str": 15, "agi": 8, "int": 5, "def": 14, "lck": 8 },
+    "baseHP": 150, "baseMP": 40,
+    "starterSkills": ["slash", "shield_bash", "battle_cry"],
+    "role": "Tank/DPS"
+  },
+  {
+    "id": "mage",
+    "name": "🔮 Mage",
+    "description": "A master of arcane arts who unleashes devastating spells from afar.",
+    "baseStats": { "str": 4, "agi": 8, "int": 18, "def": 5, "lck": 10 },
+    "baseHP": 80, "baseMP": 120,
+    "starterSkills": ["fireball", "ice_shard", "mana_shield"],
+    "role": "DPS/Support"
+  },
+  {
+    "id": "rogue",
+    "name": "🗡️ Rogue",
+    "description": "A cunning shadow dancer who strikes fast and disappears before enemies can react.",
+    "baseStats": { "str": 10, "agi": 18, "int": 8, "def": 6, "lck": 13 },
+    "baseHP": 100, "baseMP": 60,
+    "starterSkills": ["backstab", "poison_blade", "shadow_step"],
+    "role": "DPS/Assassin"
+  },
+  {
+    "id": "archer",
+    "name": "🏹 Archer",
+    "description": "A precision hunter who rains death from a distance with unmatched accuracy.",
+    "baseStats": { "str": 8, "agi": 16, "int": 10, "def": 7, "lck": 14 },
+    "baseHP": 95, "baseMP": 55,
+    "starterSkills": ["arrow_rain", "eagle_eye", "trap"],
+    "role": "DPS/Ranged"
+  },
+  {
+    "id": "paladin",
+    "name": "🛡️ Paladin",
+    "description": "A holy warrior blessed by divine power, capable of both healing and devastating holy strikes.",
+    "baseStats": { "str": 13, "agi": 7, "int": 12, "def": 13, "lck": 10 },
+    "baseHP": 140, "baseMP": 80,
+    "starterSkills": ["holy_strike", "heal", "divine_shield"],
+    "role": "Tank/Healer"
+  },
+  {
+    "id": "necromancer",
+    "name": "💀 Necromancer",
+    "description": "A dark sorcerer who commands the dead and drains life from their enemies.",
+    "baseStats": { "str": 5, "agi": 9, "int": 17, "def": 6, "lck": 8 },
+    "baseHP": 85, "baseMP": 130,
+    "starterSkills": ["soul_drain", "raise_dead", "curse"],
+    "role": "DPS/Controller"
+  }
+]

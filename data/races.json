@@ -1,0 +1,50 @@
+[
+  {
+    "id": "human",
+    "name": "👤 Human",
+    "description": "Adaptable and resilient. Humans gain bonus EXP from all activities.",
+    "bonusStats": { "str": 2, "agi": 2, "int": 2, "def": 2, "lck": 2 },
+    "passiveBonus": "+10% EXP from all sources",
+    "passive": "exp_boost_10"
+  },
+  {
+    "id": "elf",
+    "name": "🧝 Elf",
+    "description": "Ancient and graceful. Elves have superior agility and magical affinity.",
+    "bonusStats": { "str": 0, "agi": 5, "int": 5, "def": 0, "lck": 3 },
+    "passiveBonus": "Skills cost -15% MP",
+    "passive": "mp_cost_reduction"
+  },
+  {
+    "id": "dwarf",
+    "name": "⛏️ Dwarf",
+    "description": "Sturdy mountain folk. Dwarves resist all physical damage and excel at crafting.",
+    "bonusStats": { "str": 5, "agi": -2, "int": 2, "def": 8, "lck": 0 },
+    "passiveBonus": "+15% DEF, crafting costs -20%",
+    "passive": "def_boost"
+  },
+  {
+    "id": "dragonborn",
+    "name": "🐲 Dragon-born",
+    "description": "Descendants of ancient dragons. They breathe elemental energy and fear nothing.",
+    "bonusStats": { "str": 6, "agi": 2, "int": 3, "def": 3, "lck": -1 },
+    "passiveBonus": "Breath attack every 5 turns",
+    "passive": "breath_attack"
+  },
+  {
+    "id": "dark_elf",
+    "name": "🌑 Dark Elf",
+    "description": "Exiled from the Elven Kingdom, they mastered shadow magic and stealth.",
+    "bonusStats": { "str": 2, "agi": 6, "int": 4, "def": 0, "lck": 5 },
+    "passiveBonus": "+25% damage when attacking first",
+    "passive": "ambush_bonus"
+  },
+  {
+    "id": "demon",
+    "name": "😈 Demon",
+    "description": "Half-blood demons with raw destructive power. They thrive in the Demon Realm.",
+    "bonusStats": { "str": 7, "agi": 3, "int": 4, "def": 0, "lck": -1 },
+    "passiveBonus": "+20% damage in Demon Realm regions",
+    "passive": "demon_zone_boost"
+  }
+]

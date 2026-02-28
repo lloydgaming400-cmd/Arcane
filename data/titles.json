@@ -1,0 +1,17 @@
+[
+  { "id": "goblin_hunter", "name": "Goblin Hunter 🗡️", "requirement": { "killType": "goblin", "count": 100 }, "bonus": null },
+  { "id": "goblin_slayer", "name": "Slayer of Goblins ⚔️", "requirement": { "killType": "goblin", "count": 1000 }, "bonus": "+5% damage vs goblins" },
+  { "id": "dragon_slayer", "name": "Dragon Slayer 🐉", "requirement": { "killType": "dragon", "count": 100 }, "bonus": "+10% damage vs dragons" },
+  { "id": "dragonlord", "name": "Dragonlord 👑", "requirement": { "killType": "dragon", "count": 1000 }, "bonus": "+20% damage vs dragons, dragons flee on sight" },
+  { "id": "ghost_reaper", "name": "Ghost Reaper 👻", "requirement": { "killType": "undead", "count": 500 }, "bonus": "+15% damage vs undead" },
+  { "id": "boss_hunter", "name": "Boss Hunter 🏆", "requirement": { "bossKills": 50 }, "bonus": "+10% gold from bosses" },
+  { "id": "legend_breaker", "name": "Legend Breaker 🌟", "requirement": { "legendaryBossKills": 1 }, "bonus": "+100 max HP" },
+  { "id": "dungeon_sovereign", "name": "Dungeon Sovereign 👑", "requirement": { "fullDungeonClears": 1 }, "bonus": "+5% all stats in dungeons" },
+  { "id": "cockroach", "name": "Cockroach 🪳", "requirement": { "deaths": 100 }, "bonus": "+10% HP on revive" },
+  { "id": "bandit", "name": "The Bandit 🏴", "requirement": { "robSuccesses": 50 }, "bonus": "+15% rob success chance" },
+  { "id": "arena_champion", "name": "Arena Champion ⚔️", "requirement": { "pvpWins": 100 }, "bonus": "+10% PVP damage" },
+  { "id": "egg_collector", "name": "Egg Collector 🥚", "requirement": { "eggsFound": 10 }, "bonus": "Eggs hatch 25% faster" },
+  { "id": "dragon_tamer", "name": "Dragon Tamer 🐲", "requirement": { "dragonEggHatched": 1 }, "bonus": "Dragon summon +20% stats" },
+  { "id": "wealthy", "name": "The Wealthy 💰", "requirement": { "goldAccumulated": 100000 }, "bonus": "+5% gold from all sources" },
+  { "id": "transcendent_one", "name": "The Transcendent One 🔱", "requirement": { "level": 100 }, "bonus": "+10% all stats" }
+]

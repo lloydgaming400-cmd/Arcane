@@ -1,0 +1,11 @@
+{
+  "wolf_pup":        { "id": "wolf_pup",        "name": "Wolf Pup",          "emoji": "🐺", "grade": "E", "hp": 80,   "atk": 12, "def": 5,  "skill": "Bite",            "desc": "A loyal wolf companion." },
+  "hawk":            { "id": "hawk",            "name": "Battle Hawk",        "emoji": "🦅", "grade": "D", "hp": 60,   "atk": 18, "def": 4,  "skill": "Talon Strike",    "desc": "Swoops down on enemies." },
+  "shadow_wolf":     { "id": "shadow_wolf",     "name": "Shadow Wolf",        "emoji": "🖤", "grade": "B", "hp": 200,  "atk": 45, "def": 20, "skill": "Shadow Pounce",   "desc": "A wolf woven from darkness." },
+  "fire_dragon":     { "id": "fire_dragon",     "name": "Fire Dragon",        "emoji": "🔥", "grade": "S", "hp": 500,  "atk": 120,"def": 60, "skill": "Inferno Breath",  "desc": "A fearsome fire-breathing dragon." },
+  "frost_dragon":    { "id": "frost_dragon",    "name": "Frost Dragon",       "emoji": "❄️", "grade": "S", "hp": 480,  "atk": 110,"def": 70, "skill": "Blizzard Breath", "desc": "Its breath freezes enemies solid." },
+  "shadow_dragon":   { "id": "shadow_dragon",   "name": "Shadow Dragon",      "emoji": "🌑", "grade": "S", "hp": 460,  "atk": 130,"def": 50, "skill": "Void Breath",     "desc": "Born from pure darkness." },
+  "celestial_lion":  { "id": "celestial_lion",  "name": "Celestial Lion",     "emoji": "✨", "grade": "S", "hp": 520,  "atk": 100,"def": 80, "skill": "Divine Roar",     "desc": "A lion of divine light." },
+  "light_phoenix":   { "id": "light_phoenix",   "name": "Light Phoenix",      "emoji": "🌅", "grade": "S", "hp": 400,  "atk": 115,"def": 55, "skill": "Rebirth Flames",  "desc": "Revives once per dungeon on death.", "special": "auto_revive" },
+  "god_beast":       { "id": "god_beast",       "name": "God Beast Remnant",  "emoji": "👁️", "grade": "S", "hp": 800,  "atk": 200,"def": 120,"skill": "Divine Erasure",  "desc": "A fragment of divine power given form. Rarely hatched." }
+}

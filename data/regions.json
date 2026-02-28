@@ -1,0 +1,82 @@
+[
+  {
+    "id": "starter_village",
+    "name": "🏘️ Starter Village",
+    "description": "A peaceful village where adventurers begin their journey. The air smells of fresh bread and distant adventures.",
+    "levelRange": [1, 5],
+    "monsterGrades": ["E"],
+    "dungeonId": "crumbling_cellar",
+    "shops": ["general_store", "potion_shop"],
+    "isSafeZone": true
+  },
+  {
+    "id": "greenwood_forest",
+    "name": "🌲 Greenwood Forest",
+    "description": "A vast ancient forest where nature spirits roam and beasts lurk behind every tree.",
+    "levelRange": [5, 15],
+    "monsterGrades": ["E", "D"],
+    "dungeonId": "forest_labyrinth",
+    "shops": ["herb_shop", "ranger_store"],
+    "isSafeZone": false
+  },
+  {
+    "id": "elven_kingdom",
+    "name": "🧝 Elven Kingdom",
+    "description": "A breathtaking realm of soaring spires and ancient magic. Beautiful, but not welcoming to outsiders.",
+    "levelRange": [15, 30],
+    "monsterGrades": ["D", "C"],
+    "dungeonId": "elven_ruins",
+    "shops": ["magic_shop", "elven_armory"],
+    "isSafeZone": false
+  },
+  {
+    "id": "ancient_ruins",
+    "name": "💀 Ancient Ruins",
+    "description": "The crumbling remains of a once-great civilization. The dead do not rest peacefully here.",
+    "levelRange": [30, 50],
+    "monsterGrades": ["C", "B"],
+    "dungeonId": "tomb_of_the_fallen",
+    "shops": ["black_market", "relic_shop"],
+    "isSafeZone": false
+  },
+  {
+    "id": "demon_realm",
+    "name": "🔥 Demon Realm",
+    "description": "A hellscape of lava rivers and demon fortresses. Every breath burns. Every shadow hides a monster.",
+    "levelRange": [50, 70],
+    "monsterGrades": ["B", "A"],
+    "dungeonId": "infernal_citadel",
+    "shops": ["demon_bazaar", "hellfire_forge"],
+    "isSafeZone": false
+  },
+  {
+    "id": "dragon_mountains",
+    "name": "🐉 Dragon Mountains",
+    "description": "Volcanic peaks where ancient dragons rule. Dragon eggs can be found in the deepest caves.",
+    "levelRange": [70, 85],
+    "monsterGrades": ["A", "S"],
+    "dungeonId": "dragons_lair",
+    "shops": ["dragon_tamer_shop", "legendary_forge"],
+    "isSafeZone": false
+  },
+  {
+    "id": "shadow_abyss",
+    "name": "👁️ Shadow Abyss",
+    "description": "A realm between life and death. Reality bends here. Only the strongest dare enter.",
+    "levelRange": [85, 95],
+    "monsterGrades": ["A", "S"],
+    "dungeonId": "void_sanctum",
+    "shops": ["shadow_market"],
+    "isSafeZone": false
+  },
+  {
+    "id": "celestial_realm",
+    "name": "✨ Celestial Realm",
+    "description": "The divine realm above the clouds. Angels and god-beasts dwell here. Few mortals have ever seen it.",
+    "levelRange": [95, 100],
+    "monsterGrades": ["S"],
+    "dungeonId": "throne_of_the_gods",
+    "shops": ["celestial_vault"],
+    "isSafeZone": false
+  }
+]

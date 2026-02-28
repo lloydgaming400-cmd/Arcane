@@ -1,0 +1,7 @@
+[
+  { "id": "merlin", "name": "🧙 Old Merlin", "type": "Wizard", "region": "starter_village", "dialogue": ["The ancient tomes speak of darkness rising...", "Young adventurer, heed my warning — the ruins stir.", "I have studied magic for 300 years. Still, it surprises me."] },
+  { "id": "varo", "name": "🗡️ Guard Captain Varo", "type": "Guard", "region": "starter_village", "dialogue": ["Oi! Keep your weapons sheathed in the village!", "I've served the king for 20 years. Never seen it this dangerous.", "The eastern roads are blocked. Monsters everywhere."] },
+  { "id": "rodney", "name": "🍺 Barkeep Rodney", "type": "Merchant", "region": "starter_village", "dialogue": ["Ale's on me if you clear out those goblins!", "I heard a dragon was spotted near the mountains. Bad omen.", "Business is slow when adventurers keep dying..."] },
+  { "id": "aelindra", "name": "🧝 Lady Aelindra", "type": "Elf Noble", "region": "elven_kingdom", "dialogue": ["You smell like a human. Interesting.", "The ancient forest is whispering again. Something is wrong.", "Our kind has guarded these lands for millennia. We will not yield."] },
+  { "id": "korrath", "name": "🐉 Dragon Elder Korrath", "type": "Dragon", "region": "dragon_mountains", "dialogue": ["I have watched empires rise and fall. You are but a spark.", "The dragon eggs must be protected at all costs.", "Only the worthy may speak to me. Are you worthy?"] }
+]

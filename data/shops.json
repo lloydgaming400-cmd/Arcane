@@ -1,0 +1,34 @@
+{
+  "general_store": {
+    "id": "general_store", "name": "General Store", "emoji": "🏪", "region": "starter_village",
+    "items": ["health_potion", "mana_potion", "antidote", "iron_sword", "leather_armor", "ring_of_luck"]
+  },
+  "potion_shop": {
+    "id": "potion_shop", "name": "Potion Shop", "emoji": "🧪", "region": "all",
+    "items": ["health_potion", "mega_health", "mana_potion", "mega_mana", "antidote", "elixir_of_life", "str_scroll"]
+  },
+  "blacksmith": {
+    "id": "blacksmith", "name": "Blacksmith", "emoji": "⚒️", "region": "elven_kingdom",
+    "items": ["iron_sword", "steel_blade", "chainmail", "leather_armor", "elven_bow", "revival_stone"]
+  },
+  "magic_shop": {
+    "id": "magic_shop", "name": "Magic Shop", "emoji": "🔮", "region": "elven_kingdom",
+    "items": ["mages_staff", "arcane_staff", "mana_potion", "mega_mana", "amulet_of_power", "str_scroll"]
+  },
+  "black_market": {
+    "id": "black_market", "name": "Black Market", "emoji": "🌑", "region": "demon_realm",
+    "items": ["shadow_dagger", "elven_cloak", "shadow_pendant", "revival_stone", "elixir_of_life", "shadow_egg"]
+  },
+  "demon_forge": {
+    "id": "demon_forge", "name": "Demon Forge", "emoji": "🔥", "region": "demon_realm",
+    "items": ["hellfire_blade", "demon_plate", "shadow_pendant", "amulet_of_power"]
+  },
+  "dragon_forge": {
+    "id": "dragon_forge", "name": "Dragon Forge", "emoji": "🐉", "region": "dragon_mountains",
+    "items": ["dragon_fang_sword", "dragon_scale_armor", "dragon_egg", "revival_stone"]
+  },
+  "divine_shop": {
+    "id": "divine_shop", "name": "Divine Shop", "emoji": "✨", "region": "celestial_realm",
+    "items": ["celestial_blade", "celestial_egg", "elixir_of_life", "revival_stone"]
+  }
+}

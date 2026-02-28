@@ -1,0 +1,7 @@
+{
+  "beast_egg":     { "id": "beast_egg",     "name": "Beast Egg",      "emoji": "🥚", "hatchKey": "beast",     "rarity": "common",    "desc": "A speckled egg found in the wild. Hatches into a random beast companion.", "possibleSummons": ["wolf_pup", "baby_slime", "wild_boar", "hawk"] },
+  "dragon_egg":    { "id": "dragon_egg",    "name": "Dragon Egg",     "emoji": "🔴", "hatchKey": "dragon",    "rarity": "legendary", "desc": "A crimson egg radiating heat. Only the bravest dare carry one.", "possibleSummons": ["fire_dragon", "frost_dragon", "shadow_dragon"] },
+  "shadow_egg":    { "id": "shadow_egg",    "name": "Shadow Egg",     "emoji": "⚫", "hatchKey": "shadow",    "rarity": "epic",      "desc": "Completely black, it seems to absorb light around it.", "possibleSummons": ["shadow_wolf", "void_cat", "shade_serpent"] },
+  "celestial_egg": { "id": "celestial_egg", "name": "Celestial Egg",  "emoji": "⭐", "hatchKey": "celestial", "rarity": "legendary", "desc": "Glows with pure divine light. Hard to look at directly.", "possibleSummons": ["angel_hawk", "celestial_lion", "light_phoenix"] },
+  "mystery_egg":   { "id": "mystery_egg",   "name": "Mystery Egg",    "emoji": "❓", "hatchKey": "mystery",   "rarity": "mythic",    "desc": "No one knows what's inside. Something ancient stirs within...", "possibleSummons": ["ancient_beast", "world_serpent", "primordial_dragon", "god_beast"] }
+}

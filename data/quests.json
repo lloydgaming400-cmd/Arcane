@@ -1,0 +1,188 @@
+{
+  "daily": [
+    {
+      "id": "first_blood",
+      "name": "First Blood",
+      "type": "daily",
+      "repeatable": true,
+      "levelReq": 1,
+      "desc": "Slay 5 monsters in any region to prove your worth.",
+      "objectives": [{ "key": "kill_any", "label": "Kill any monster", "amount": 5 }],
+      "goldReward": 200,
+      "expReward": 150
+    },
+    {
+      "id": "goblin_menace",
+      "name": "The Goblin Menace",
+      "type": "daily",
+      "repeatable": true,
+      "levelReq": 1,
+      "desc": "Goblins are raiding caravans! Eliminate 10 of them.",
+      "objectives": [{ "key": "kill_goblin", "label": "Kill Goblins", "amount": 10 }],
+      "goldReward": 350,
+      "expReward": 300
+    },
+    {
+      "id": "potion_run",
+      "name": "Stock the Clinic",
+      "type": "daily",
+      "repeatable": true,
+      "levelReq": 1,
+      "desc": "Purchase 3 health potions for the village clinic.",
+      "objectives": [{ "key": "buy_health_potion", "label": "Buy Health Potion", "amount": 3 }],
+      "goldReward": 250,
+      "expReward": 100
+    },
+    {
+      "id": "dungeon_runner",
+      "name": "Dungeon Runner",
+      "type": "daily",
+      "repeatable": true,
+      "levelReq": 5,
+      "desc": "Clear at least 1 dungeon floor today.",
+      "objectives": [{ "key": "clear_floor", "label": "Clear a dungeon floor", "amount": 1 }],
+      "goldReward": 400,
+      "expReward": 350
+    },
+    {
+      "id": "beast_hunter",
+      "name": "Beast Hunter",
+      "type": "daily",
+      "repeatable": true,
+      "levelReq": 10,
+      "desc": "Hunt 8 beasts in the wild today.",
+      "objectives": [{ "key": "kill_any", "label": "Hunt beasts", "amount": 8 }],
+      "goldReward": 300,
+      "expReward": 200
+    }
+  ],
+  "weekly": [
+    {
+      "id": "dungeon_delver",
+      "name": "Dungeon Delver",
+      "type": "weekly",
+      "repeatable": true,
+      "levelReq": 1,
+      "desc": "Clear 10 dungeon floors this week.",
+      "objectives": [{ "key": "clear_floor", "label": "Clear dungeon floors", "amount": 10 }],
+      "goldReward": 1500,
+      "expReward": 1000
+    },
+    {
+      "id": "goblin_slayer",
+      "name": "Goblin Slayer",
+      "type": "weekly",
+      "repeatable": true,
+      "levelReq": 5,
+      "desc": "Kill 50 goblins this week.",
+      "objectives": [{ "key": "kill_goblin", "label": "Kill Goblins", "amount": 50 }],
+      "goldReward": 2000,
+      "expReward": 1500
+    },
+    {
+      "id": "world_traveler",
+      "name": "World Traveler",
+      "type": "weekly",
+      "repeatable": true,
+      "levelReq": 10,
+      "desc": "Visit 3 different regions this week.",
+      "objectives": [{ "key": "visit_region", "label": "Visit different regions", "amount": 3 }],
+      "goldReward": 1800,
+      "expReward": 1200
+    },
+    {
+      "id": "boss_hunter_weekly",
+      "name": "Boss Hunter",
+      "type": "weekly",
+      "repeatable": true,
+      "levelReq": 20,
+      "desc": "Defeat 3 dungeon bosses this week.",
+      "objectives": [{ "key": "kill_boss", "label": "Defeat dungeon bosses", "amount": 3 }],
+      "goldReward": 3000,
+      "expReward": 2500
+    },
+    {
+      "id": "merchant_king",
+      "name": "Merchant King",
+      "type": "weekly",
+      "repeatable": true,
+      "levelReq": 15,
+      "desc": "Earn 5000G from selling items or working your job.",
+      "objectives": [{ "key": "earn_gold", "label": "Earn gold (sell/work)", "amount": 5000 }],
+      "goldReward": 2500,
+      "expReward": 1000
+    }
+  ],
+  "story": [
+    {
+      "id": "the_calling",
+      "name": "The Calling",
+      "type": "story",
+      "repeatable": false,
+      "levelReq": 1,
+      "desc": "An old sage in Starter Village speaks of a growing darkness in the Ancient Ruins. Investigate.",
+      "objectives": [
+        { "key": "kill_any", "label": "Prove yourself in battle", "amount": 3 },
+        { "key": "visit_ancient_ruins", "label": "Travel to Ancient Ruins", "amount": 1 }
+      ],
+      "goldReward": 1000,
+      "expReward": 800
+    },
+    {
+      "id": "elven_alliance",
+      "name": "The Elven Alliance",
+      "type": "story",
+      "repeatable": false,
+      "levelReq": 15,
+      "desc": "The Elven Kingdom seeks champions. Gain their trust by defeating undead threats.",
+      "objectives": [
+        { "key": "kill_undead", "label": "Defeat undead creatures", "amount": 20 },
+        { "key": "clear_floor", "label": "Clear dungeon floors", "amount": 5 }
+      ],
+      "goldReward": 5000,
+      "expReward": 4000
+    },
+    {
+      "id": "demon_threat",
+      "name": "The Demon Threat",
+      "type": "story",
+      "repeatable": false,
+      "levelReq": 50,
+      "desc": "Dark forces stir in the Demon Realm. A portal must be closed — at any cost.",
+      "objectives": [
+        { "key": "kill_demon", "label": "Slay demons", "amount": 30 },
+        { "key": "kill_boss", "label": "Defeat a major boss", "amount": 1 }
+      ],
+      "goldReward": 15000,
+      "expReward": 12000
+    },
+    {
+      "id": "dragon_scale",
+      "name": "The Dragon's Scale",
+      "type": "story",
+      "repeatable": false,
+      "levelReq": 60,
+      "desc": "Dragon Elder Sorath has summoned you. Venture into Dragon Mountains and prove your worth.",
+      "objectives": [
+        { "key": "visit_dragon_mountains", "label": "Reach Dragon Mountains", "amount": 1 },
+        { "key": "kill_dragon", "label": "Slay a dragon", "amount": 1 }
+      ],
+      "goldReward": 25000,
+      "expReward": 20000
+    },
+    {
+      "id": "ascension",
+      "name": "Path of Ascension",
+      "type": "story",
+      "repeatable": false,
+      "levelReq": 90,
+      "desc": "The Celestial Realm calls only the worthy. Clear all dungeon floors to prove your legend.",
+      "objectives": [
+        { "key": "clear_floor", "label": "Clear dungeon floors", "amount": 100 },
+        { "key": "kill_boss", "label": "Defeat legendary bosses", "amount": 5 }
+      ],
+      "goldReward": 100000,
+      "expReward": 80000
+    }
+  ]
+}

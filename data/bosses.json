@@ -1,0 +1,75 @@
+{
+  "forest_guardian": {
+    "id": "forest_guardian", "name": "Forest Guardian", "dungeon": "forest_dungeon",
+    "floor": 10, "grade": "B", "emoji": "🌳",
+    "hp": 800, "atk": 45, "def": 20, "exp": 500, "gold": 300,
+    "phases": [
+      { "hpThreshold": 1.0, "name": "Awakening", "desc": "The ancient tree stirs, roots reaching out like grasping hands." },
+      { "hpThreshold": 0.5, "name": "Enraged", "desc": "Bark cracks as sap bleeds like blood. The guardian roars!", "atkBoost": 1.5 }
+    ],
+    "attacks": ["Root Slam", "Thorn Volley", "Ancient Roar", "Entangle"],
+    "drops": ["forest_heart", "elven_wood", "beast_egg"],
+    "intro": "The very forest screams as the ancient guardian rises from the earth...",
+    "image": null
+  },
+  "bone_dragon": {
+    "id": "bone_dragon", "name": "Bone Dragon Skelerath", "dungeon": "ruins_dungeon",
+    "floor": 50, "grade": "A", "emoji": "🦴",
+    "hp": 5000, "atk": 120, "def": 60, "exp": 2000, "gold": 1500,
+    "phases": [
+      { "hpThreshold": 1.0,  "name": "Ancient Terror",   "desc": "Skelerath spreads wings of bone that block out all light." },
+      { "hpThreshold": 0.65, "name": "Furious Undead",   "desc": "The dragon's eyes glow red with rage. Its attacks double!", "atkBoost": 1.8 },
+      { "hpThreshold": 0.3,  "name": "Death's Last Cry", "desc": "Bone shards fly as Skelerath enters its final form!", "atkBoost": 2.5, "atkSpeed": 2 }
+    ],
+    "attacks": ["Bone Breath", "Skeletal Slam", "Death Coil", "Bone Storm", "Ancient Curse"],
+    "drops": ["dragon_bone", "cursed_relic", "shadow_egg", "ancient_scroll"],
+    "intro": "From the deepest chamber, the earth splits open. An impossibly large skeletal dragon rises, bones grinding against stone...",
+    "image": null
+  },
+  "demon_emperor": {
+    "id": "demon_emperor", "name": "Demon Emperor Zarael", "dungeon": "demon_citadel",
+    "floor": 70, "grade": "S", "emoji": "👿",
+    "hp": 15000, "atk": 250, "def": 100, "exp": 8000, "gold": 6000,
+    "phases": [
+      { "hpThreshold": 1.0,  "name": "The Emperor Sits",    "desc": "Zarael regards you with contempt. Flames spiral around his throne." },
+      { "hpThreshold": 0.75, "name": "Mildly Annoyed",      "desc": "He rises. The air itself burns. 'You survived that? Impressive... barely.'", "atkBoost": 1.6 },
+      { "hpThreshold": 0.45, "name": "True Power Unleashed","desc": "'ENOUGH! Witness my true form, insect!'", "atkBoost": 2.2, "newAbility": "Hellfire Nova" },
+      { "hpThreshold": 0.15, "name": "Demon Ascension",     "desc": "Wings of pure flame erupt from his back. Reality cracks around him.", "atkBoost": 3.0, "newAbility": "Apocalypse Flame" }
+    ],
+    "attacks": ["Hellfire Blast", "Demon Slash", "Dark Nova", "Soul Rend", "Hellfire Nova", "Apocalypse Flame"],
+    "drops": ["demon_core", "hellfire_weapon", "demon_plate", "shadow_egg", "mystery_egg"],
+    "intro": "The citadel shakes as a voice like thunder echoes through the halls...\n\n'Another adventurer dares enter my domain? How... delightfully suicidal.'",
+    "image": null
+  },
+  "ancient_dragon_kalaros": {
+    "id": "ancient_dragon_kalaros", "name": "Ancient Dragon Kalaros", "dungeon": "dragon_lair",
+    "floor": 85, "grade": "S", "emoji": "🐉",
+    "hp": 30000, "atk": 380, "def": 150, "exp": 15000, "gold": 12000,
+    "phases": [
+      { "hpThreshold": 1.0,  "name": "Watching",      "desc": "Kalaros opens one massive golden eye. The mountain itself trembles." },
+      { "hpThreshold": 0.7,  "name": "Rising",        "desc": "The dragon stands, wings spreading wide enough to cover the sky.", "atkBoost": 1.7 },
+      { "hpThreshold": 0.4,  "name": "Ancient Wrath", "desc": "'In ten thousand years, none have made me bleed. You will SUFFER.'", "atkBoost": 2.4 },
+      { "hpThreshold": 0.1,  "name": "Dragon's Final Breath", "desc": "Kalaros channels a millennium of rage into one final attack...", "atkBoost": 4.0 }
+    ],
+    "attacks": ["Dragon Breath", "Tail Sweep", "Wing Storm", "Fire Rain", "Ancient Roar", "Omega Flame"],
+    "drops": ["dragon_egg", "dragon_scale_armor", "dragon_fang_sword", "dragon_heart"],
+    "intro": "You step into the dragon's lair. The air is scorching. Gold coins the size of shields litter the floor.\n\nThen — a single eye opens in the darkness, larger than a house...\n\n'You have come a very long way to die, little one.'",
+    "image": null
+  },
+  "fallen_god": {
+    "id": "fallen_god", "name": "The Fallen God Erathos", "dungeon": "celestial_spire",
+    "floor": 100, "grade": "S", "emoji": "👁️",
+    "hp": 80000, "atk": 600, "def": 250, "exp": 50000, "gold": 40000,
+    "phases": [
+      { "hpThreshold": 1.0,  "name": "The Silence Before Oblivion", "desc": "Everything stops. Light itself dims. A presence older than existence turns its attention to you." },
+      { "hpThreshold": 0.8,  "name": "Disappointment",             "desc": "'I once shattered stars for entertainment. You're... less.'", "atkBoost": 1.5 },
+      { "hpThreshold": 0.55, "name": "Waking Up",                  "desc": "'Hm. Perhaps I should take you seriously.'", "atkBoost": 2.0 },
+      { "hpThreshold": 0.3,  "name": "God's Anger",                "desc": "'IMPOSSIBLE! How do you still stand?! DIE!'", "atkBoost": 3.0 },
+      { "hpThreshold": 0.05, "name": "God's Last Resort",          "desc": "The Fallen God reaches into the void between worlds...\n'If I fall... everything falls with me.'", "atkBoost": 5.0 }
+    ],
+    "attacks": ["Void Strike", "Reality Tear", "Star Collapse", "God's Wrath", "Divine Annihilation", "Omega Erasure"],
+    "drops": ["celestial_blade", "divine_crystal", "celestial_egg", "mystery_egg", "god_relic"],
+    "intro": "You reach the peak of the Celestial Spire. There is nothing here... and then everything is here at once.\n\nA being of pure light and shadow that exists in all places simultaneously focuses on you.\n\nThe very ground beneath you begins to dissolve.\n\n'...you reached my door. I am almost... curious.'",
+    "image": null
+  }
+}
