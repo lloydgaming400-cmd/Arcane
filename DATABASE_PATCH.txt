@@ -1,0 +1,27 @@
+// ═══════════════════════════════════════════════════════
+//  DATABASE PATCH — Replace getAllPlayers() in database.js
+// ═══════════════════════════════════════════════════════
+//
+// Find this in lib/database.js:
+//
+//   export function getAllPlayers() {
+//     return Object.values(db.data.players)
+//   }
+//
+// Replace it with:
+//
+//   export function getAllPlayers() {
+//     return db.data.players   // returns the full object keyed by senderNumber
+//   }
+//
+// This allows rpg-boss.js and rpg-leaderboard.js to look
+// up players by their phone number ID.
+//
+// ── HOW TO APPLY ───────────────────────────────────────
+// Open lib/database.js
+// Find the getAllPlayers function (around line 160)
+// Change: return Object.values(db.data.players)
+// To:     return db.data.players
+//
+// That's the only change needed!
+// ═══════════════════════════════════════════════════════
